@@ -6,4 +6,36 @@
 #topo {
     background: olivedrab;
     color: whitesmoke;
+    height: 250px;
 }
+
+body {
+      position: relative; 
+  }
+  
+  .jumbotron {
+      margin-bottom: 0;
+  }
+  .affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+  .navbar {
+      margin-bottom: 0px;
+      border-radius: 0px;
+      background: #115c35
+  }
+
+  .affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
+  #section1 {padding-top:50px;height:670px;color: #fff; background-color: #1E88E5;}
+  #section2 {padding-top:50px;height:670px;color: #fff; background-color: #673ab7;}
+  #section3 {padding-top:50px;height:670px;color: #fff; background-color: #ff9800;}
+  #section4 {padding-top:50px;height:670px;color: #fff; background-color: #FF8247;}
+  #section5 {padding-top:50px;height:670px;color: #fff; background-color: #009688;}
+  #section6 {padding-top:50px;height:670px;color: #fff; background-color: #00bcd4;}
+  #section7 {padding-top:50px;height:670px;color: #fff; background-color: #A020F0;}
+  
